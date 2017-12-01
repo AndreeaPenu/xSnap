@@ -9,13 +9,17 @@
         <title>xSnap</title>
 
     </head>
-    <body id="start">
-       <div class="container">
-            <a href="{{ url('/backdrop') }}" class="btn btn-danger btn-start">
-                <i class="fa fa-play-circle" aria-hidden="true"></i> START
-            </a>
+    <body>
+        <div class="container">
+            <div class="row">
+                <a href="{{ url('/share') }}" class="btn btn-danger btn-camera">
+                    <i class="fa fa-camera" aria-hidden="true"></i>
+                </a>
+                <a href="{{ url('/backdrop') }}" class="btn btn-success btn-backdrop">
+                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                </a>
+            </div>
         </div>
-
       <script src="js/vue.min.js"></script>
       <script src="js/script.js"></script>
         

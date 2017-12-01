@@ -1,3 +1,91 @@
+/* line 1, ../scss/base/_base.scss */
+body {
+  background-color: #f4f4f4!important;
+}
+
+/* line 5, ../scss/base/_base.scss */
+#start {
+  height: 100%;
+  background: url(../../img/startscreen.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 14, ../scss/base/_base.scss */
+#share {
+  height: 100%;
+  background: url(../../img/photobooth.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 23, ../scss/base/_base.scss */
+.logo {
+  height: 130px;
+  width: 207px;
+  margin-bottom: 50px;
+}
+
+/* line 1, ../scss/modules/_buttons.scss */
+.btn-start {
+  float: right;
+  margin-top: 500px;
+  margin-right: 200px;
+}
+
+/* line 7, ../scss/modules/_buttons.scss */
+.btn-next {
+  margin-top: 100px;
+  margin-left: 500px;
+}
+
+/* line 12, ../scss/modules/_buttons.scss */
+.btn-home {
+  float: right;
+  margin-top: 70px;
+  margin-right: 100px;
+}
+
+/* line 18, ../scss/modules/_buttons.scss */
+.btn-camera {
+  margin-top: 400px;
+  margin-left: 500px;
+}
+
+/* line 23, ../scss/modules/_buttons.scss */
+.btn-backdrop {
+  margin-top: 400px;
+}
+
+/* line 27, ../scss/modules/_buttons.scss */
+.btn-share {
+  margin-top: 400px;
+  margin-left: 500px;
+}
+
+/* line 32, ../scss/modules/_buttons.scss */
+.btn-print {
+  margin-top: 400px;
+}
+
+/* line 36, ../scss/modules/_buttons.scss */
+.btn-again {
+  margin-top: 400px;
+}
+
+/* line 1, ../scss/modules/_blocks.scss */
+.backdrop-picture {
+  height: 200px;
+  width: 300px;
+  background: #353535;
+  display: inline-block;
+  margin-right: 30px;
+}
+
 /*
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.

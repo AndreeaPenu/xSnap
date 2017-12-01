@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/backdrop', function () {
+    return view('backdrop');
+});
+
+Route::get('/takepicture', function () {
+    return view('takepicture');
+});
+
+Route::get('/share', function () {
+    return view('share');
+});
